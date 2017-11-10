@@ -2,6 +2,14 @@
     "name": "conquerorsoft/my_first_project",
     "description": "Project created with composer init",
     "type": "project",
+    "keywords": [
+        "conquerorsoft",
+        "my_first_project",
+        "tutorial",
+        "phpworld 2017",
+        "workshop"
+    ],
+    "homepage": "http://www.conquerorsoft.com/my_first_project",
     "repositories": [
         {
             "type": "vcs",
@@ -20,7 +28,15 @@
     "authors": [
         {
             "name": "Christian Varela",
-            "email": "cvarela@conquerorsoft.com"
+            "email": "cvarela@conquerorsoft.com",
+            "homepage": "http://www.conquerorsoft.com/ChristianVarela",
+            "role": "Developer"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    }
 }

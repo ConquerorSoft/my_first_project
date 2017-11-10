@@ -139,6 +139,71 @@ This is my very first project I created at php[world]. I learned that I have to 
 
     mkdir src && mkdir tests
 
+16- Edit the composer.json file to be this way now:
+
+    {
+        "name": "conquerorsoft/my_first_project",
+        "description": "Project created with composer init",
+        "type": "project",
+        "keywords": [
+            "conquerorsoft",
+            "my_first_project",
+            "tutorial",
+            "phpworld 2017",
+            "workshop"
+        ],
+        "homepage": "http://www.conquerorsoft.com/my_first_project",
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "/Users/gabriel/phplibrary/my_first_library"
+            }
+        ],
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "conquerorsoft/my_first_library": "^0.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "license": "MIT",
+        "authors": [
+            {
+                "name": "Christian Varela",
+                "email": "cvarela@conquerorsoft.com",
+                "homepage": "http://www.conquerorsoft.com/ChristianVarela",
+                "role": "Developer"
+            }
+        ],
+        "minimum-stability": "stable",
+        "scripts": {
+            "test": "phpunit",
+            "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+            "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+        }
+    }
+
+17- Create file phpunit.xml
+
+    vim phpunit.xml
+
+18- add build to .gitignore
+
+    echo build >> .gitignore
+
+19- run composer update
+
+    composer update
+
+20- commit to git
+
+    echo "build/" >> .gitignore
+    git add .
+    git commit -m "Preparation for development"
+    git tag -a v0.1.3 -m "version 0.1.3"
+    git push -u origin master
+    git push origin v0.1.3
 
 ## Contributing ##
 

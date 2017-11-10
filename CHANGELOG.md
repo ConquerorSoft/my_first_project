@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.3] - 2017-11-09 ##
+### Added ###
+- phpunit.xml file
+- codesniffer was required
+
+### Changed ###
+- README.md more steps added.
+- composer.json keywords, and other details added
+- build added to .gitignored
+- composer.lock updated
+
+
 ## [0.1.2] - 2017-11-09 ##
 ### Added ###
 - CHANGELOG.md file created
