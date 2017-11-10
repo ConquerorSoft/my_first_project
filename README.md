@@ -123,6 +123,23 @@ This is my very first project I created at php[world]. I learned that I have to 
 
     composer install
 
+13- create a Changelog file ( this format is recommended: [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) )
+
+    vim CHANGELOG.md
+
+14- commit to git
+
+    git add .
+    git commit -m "Changelog file added"
+    git tag -a v0.1.2 -m "version 0.1.2"
+    git push -u origin master
+    git push origin v0.1.2
+
+15- Create structure for starting the development
+
+    mkdir src && mkdir tests
+
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
