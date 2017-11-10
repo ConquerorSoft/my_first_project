@@ -13,7 +13,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "/Users/gabriel/phplibrary/my_first_library"
+            "url": "https://github.com/ConquerorSoft/my_first_library"
         }
     ],
     "require": {

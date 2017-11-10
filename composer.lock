@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3991cc044758866ccaba60f6e85d9091",
+    "content-hash": "2e98494b187acbf8c083ae725b2cd89d",
     "packages": [
         {
             "name": "conquerorsoft/my_first_library",
-            "version": "v0.1.12",
+            "version": "v0.1.13",
             "source": {
                 "type": "git",
-                "url": "/Users/gabriel/phplibrary/my_first_library",
-                "reference": "d92ffcba506a8fee8913f8c81fb076d3454e856f"
+                "url": "https://github.com/ConquerorSoft/my_first_library.git",
+                "reference": "c89404869627e2b29c12eccc1210aeae0c3a0141"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ConquerorSoft/my_first_library/zipball/c89404869627e2b29c12eccc1210aeae0c3a0141",
+                "reference": "c89404869627e2b29c12eccc1210aeae0c3a0141",
+                "shasum": ""
             },
             "require": {
                 "php": "~5.6 || ~7.0"
@@ -63,7 +69,11 @@
                 "tutorial",
                 "workshop"
             ],
-            "time": "2017-11-09T01:01:19+00:00"
+            "support": {
+                "source": "https://github.com/ConquerorSoft/my_first_library/tree/v0.1.13",
+                "issues": "https://github.com/ConquerorSoft/my_first_library/issues"
+            },
+            "time": "2017-11-10T18:02:42+00:00"
         }
     ],
     "packages-dev": [

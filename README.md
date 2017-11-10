@@ -254,6 +254,29 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.5
 
+29- Change composer.json to use github repository instead of file system local folder
+
+    vim composer.json
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ConquerorSoft/my_first_library"
+        }
+    ],
+
+30- run composer update
+
+    composer update
+
+31- commit to git
+
+    git add .
+    git commit -m "VCS reference changed for my_first_library in composer.json"
+    git tag -a v0.1.6 -m "version 0.1.6"
+    git push -u origin master
+    git push origin v0.1.6
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.

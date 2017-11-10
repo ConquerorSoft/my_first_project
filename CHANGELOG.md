@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.6] - 2017-11-10 ##
+### Changed ###
+- README.md steps added
+- composer.json repository reference changed
+- composer.lock updated by composer update
+
 ## [0.1.5] - 2017-11-10 ##
 ### Added ###
 - Travis CI support
