@@ -242,6 +242,18 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.4
 
+27- add repository to Travis and create travis configuration file
+    
+    vim .travis.yml
+
+28- commit to git
+
+    git add .
+    git commit -m "Travis CI integration"
+    git tag -a v0.1.5 -m "version 0.1.5"
+    git push -u origin master
+    git push origin v0.1.5
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
