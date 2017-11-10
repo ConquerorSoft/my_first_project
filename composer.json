@@ -10,12 +10,6 @@
         "workshop"
     ],
     "homepage": "http://www.conquerorsoft.com/my_first_project",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ConquerorSoft/my_first_library"
-        }
-    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "conquerorsoft/my_first_library": "^0.1"

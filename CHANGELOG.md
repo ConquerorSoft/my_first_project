@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.7] - 2017-11-10 ##
+### Changed ###
+- composer.json doesn't have VCS as reference for my_first_library
+- README.md, more steps added
+- composer.lock updated by composer update
+
 ## [0.1.6] - 2017-11-10 ##
 ### Changed ###
 - README.md steps added

@@ -277,6 +277,20 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.6
 
+32- Remove references for repositories in composer.json since now the library is on packagist.org
+33- Run composer update
+
+    composer clearcache
+    composer update
+
+34- commit to git
+
+    git add .
+    git commit -m "my_first_library is now taken from packagist"
+    git tag -a v0.1.7 -m "version 0.1.7"
+    git push -u origin master
+    git push origin v0.1.7
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.

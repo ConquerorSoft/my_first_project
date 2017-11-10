@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e98494b187acbf8c083ae725b2cd89d",
+    "content-hash": "8224d6d3544bc9e63edb26e679b5ad5a",
     "packages": [
         {
             "name": "conquerorsoft/my_first_library",
-            "version": "v0.1.13",
+            "version": "v0.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ConquerorSoft/my_first_library.git",
-                "reference": "c89404869627e2b29c12eccc1210aeae0c3a0141"
+                "reference": "eb57334474865aa22d97085ace5d22cf827e70fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ConquerorSoft/my_first_library/zipball/c89404869627e2b29c12eccc1210aeae0c3a0141",
-                "reference": "c89404869627e2b29c12eccc1210aeae0c3a0141",
+                "url": "https://api.github.com/repos/ConquerorSoft/my_first_library/zipball/eb57334474865aa22d97085ace5d22cf827e70fc",
+                "reference": "eb57334474865aa22d97085ace5d22cf827e70fc",
                 "shasum": ""
             },
             "require": {
@@ -33,22 +33,7 @@
                     "conquerorsoft\\my_first_library\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "conquerorsoft\\my_first_library\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "check-style": [
-                    "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ],
-                "fix-style": [
-                    "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -69,11 +54,7 @@
                 "tutorial",
                 "workshop"
             ],
-            "support": {
-                "source": "https://github.com/ConquerorSoft/my_first_library/tree/v0.1.13",
-                "issues": "https://github.com/ConquerorSoft/my_first_library/issues"
-            },
-            "time": "2017-11-10T18:02:42+00:00"
+            "time": "2017-11-10T20:10:11+00:00"
         }
     ],
     "packages-dev": [
@@ -1341,16 +1322,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.3.10",
+            "version": "v3.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46"
+                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46",
-                "reference": "8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0938408c4faa518d95230deabb5f595bf0de31b9",
+                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9",
                 "shasum": ""
             },
             "require": {
@@ -1392,7 +1373,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-05T14:43:42+00:00"
+            "time": "2017-11-10T18:26:04+00:00"
         },
         {
             "name": "webmozart/assert",
