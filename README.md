@@ -39,7 +39,7 @@ This is my very first project I created at php[world]. I learned that I have to 
 
 9- enter all the information asked by composer init
 
-    Package name (<vendor>/<name>) [gabriel/my_first_project]: php_library_right_way/my_first_project
+    Package name (<vendor>/<name>) [gabriel/my_first_project]: conquerorsoft/my_first_project
     Description []: Project created with composer init
     Author [Christian Varela <dobleclick.mx@gmail.com>, n to skip]: Christian Varela <cvarela@conquerorsoft.com>
     Minimum Stability []:
@@ -60,7 +60,7 @@ This is my very first project I created at php[world]. I learned that I have to 
     Search for a package:
 
     {
-        "name": "php_library_right_way/my_first_project",
+        "name": "conquerorsoft/my_first_project",
         "description": "Project created with composer init",
         "type": "project",
         "require": {
@@ -80,8 +80,38 @@ This is my very first project I created at php[world]. I learned that I have to 
     }
 
     Do you confirm generation [yes]?
+    Would you like the vendor directory added to your .gitignore [yes]?
 
-10- composer.json file is created, commit to git
+10- composer.json file is created, edit it to include your library
+
+    {
+        "name": "conquerorsoft/my_first_project",
+        "description": "Project created with composer init",
+        "type": "project",
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "/Users/gabriel/phplibrary/my_first_library"
+            }
+        ],
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "conquerorsoft/my_first_library": "^0.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "license": "MIT",
+        "authors": [
+            {
+                "name": "Christian Varela",
+                "email": "cvarela@conquerorsoft.com"
+            }
+        ]
+    }
+
+11- commit to git
 
     git add .
     git commit -m "Composer init"
@@ -89,8 +119,33 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.1
 
-11- Run composer install
+12- Run composer install
 
     composer install
 
+## Contributing ##
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+
+## Security ##
+
+If you discover any security related issues, please email cvarela@conquerorsoft.com instead of using the issue tracker.
+
+## Credits ##
+
+- [Christian Varela][link-author]
+
+## License ##
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
+[ico-travis]: https://travis-ci.org/ConquerorSoft/my_first_project.svg?branch=master
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/conquerorsoft/my_first_project.svg?style=flat
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/conquerorsoft/my_first_project.svg?style=flat
+
+[link-travis]: https://travis-ci.org/ConquerorSoft/my_first_project
+[link-scrutinizer]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_project/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_project
+[link-author]: https://github.com/gabrielconqueror
 
