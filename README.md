@@ -319,6 +319,39 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.9
 
+40- Create contributing files
+
+    vim CONTRIBUTING.md
+    vim CODE_OF_CONDUCT.md
+
+43- Add more sections to README file
+
+- Install
+- Change log
+- Testing
+
+44- commit to git
+
+    git add .
+    git commit -m "Improvements to README"
+    git tag -a v0.1.10 -m "version 0.1.10"
+    git push -u origin master
+    git push origin v0.1.10
+
+## Install ##
+
+With composer
+
+    composer create-project conquerorsoft/my_first_project <project-dir>
+
+## Change Log ##
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Testing ##
+
+    composer test
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
