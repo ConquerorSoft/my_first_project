@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.9] - 2017-11-10 ##
+### Changed ###
+- README.md, more steps added
+- .gitignore ignores netbeans project
+- composer.json uses version ^1.0 for my_first_library
+- composer.lock updated by composer update
+
 ## [0.1.8] - 2017-11-10 ##
 ### Changed ###
 - README.md, more steps added

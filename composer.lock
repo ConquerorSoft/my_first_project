@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8224d6d3544bc9e63edb26e679b5ad5a",
+    "content-hash": "bda45824d7c4c849c57f6c943f25ff28",
     "packages": [
         {
             "name": "conquerorsoft/my_first_library",
-            "version": "v0.1.14",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ConquerorSoft/my_first_library.git",
-                "reference": "eb57334474865aa22d97085ace5d22cf827e70fc"
+                "reference": "8cd5bfb4fe09427ca9eac0330925f217ac2b8f0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ConquerorSoft/my_first_library/zipball/eb57334474865aa22d97085ace5d22cf827e70fc",
-                "reference": "eb57334474865aa22d97085ace5d22cf827e70fc",
+                "url": "https://api.github.com/repos/ConquerorSoft/my_first_library/zipball/8cd5bfb4fe09427ca9eac0330925f217ac2b8f0f",
+                "reference": "8cd5bfb4fe09427ca9eac0330925f217ac2b8f0f",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "tutorial",
                 "workshop"
             ],
-            "time": "2017-11-10T20:10:11+00:00"
+            "time": "2017-11-10T23:10:21+00:00"
         }
     ],
     "packages-dev": [

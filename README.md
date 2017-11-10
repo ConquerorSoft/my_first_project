@@ -303,6 +303,22 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.8
 
+37- change composer.json to require version ^1.0.0 for my_first_library
+
+    "conquerorsoft/my_first_library": "^1.0"
+
+38- run composer update
+
+    composer update
+
+39- commit to git
+
+    git add .
+    git commit -m "Using version ^1.0 from my_first_library"
+    git tag -a v0.1.9 -m "version 0.1.9"
+    git push -u origin master
+    git push origin v0.1.9
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
