@@ -291,6 +291,18 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.7
 
+35- Link scrutinizer-ci account with github and create .scrutinizer.yml file
+
+    vim .scrutinizer.yml
+
+36- commit to git
+
+    git add .
+    git commit -m "Scrutinizer support added"
+    git tag -a v0.1.8 -m "version 0.1.8"
+    git push -u origin master
+    git push origin v0.1.8
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.

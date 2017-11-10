@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.8] - 2017-11-10 ##
+### Changed ###
+- README.md, more steps added
+
+### Added ###
+- Scrutinizer CI support
+- .scrutinizer.yml file
+
 ## [0.1.7] - 2017-11-10 ##
 ### Changed ###
 - composer.json doesn't have VCS as reference for my_first_library
