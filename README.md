@@ -205,6 +205,43 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.3
 
+21- Add a LICENSE.md file (for this example we chose MIT)
+
+    vim LICENSE.md
+
+22- Create tests/FirstProjectClassTest.php
+
+    vim tests/FirstProjectClassTest.php
+
+23- Create src/FirstProjectClass.php
+
+    vim src/FirstProjectClass.php
+
+24- Add autoload section to composer.json
+
+    "autoload": {
+        "psr-4": {
+            "conquerorsoft\\my_first_project\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "conquerorsoft\\my_first_project\\": "test"
+        }
+    },
+
+25- Rum composer dump-autoload
+
+    composer dump-autoload
+
+26- commit to git
+
+    git add .
+    git commit -m "Classes from project calling my library"
+    git tag -a v0.1.4 -m "version 0.1.4"
+    git push -u origin master
+    git push origin v0.1.4
+
 ## Contributing ##
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.

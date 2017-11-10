@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.4] - 2017-11-10 ##
+### Added ###
+- LICENSE file added
+- FirstProjectClass.php added
+- FirstProjectClassTest.php added
+- encoding method added
+- decoding method added
+
+### Changed ###
+- README.md steps added
+- composer.json includes autoload for classes and test classes
+
 ## [0.1.3] - 2017-11-09 ##
 ### Added ###
 - phpunit.xml file
