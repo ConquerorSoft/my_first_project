@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [v1.0.0] - 2017-11-10 ##
+### Changed ###
+- README, added steps for documentation in GitHub pages
+- README, usage section added
+
+## Added ##
+- gh-pages branch for GitHub pages
+
 ## [v0.1.11] - 2017-11-10 ##
 ### Changed ###
 - README, more steps added

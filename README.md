@@ -358,11 +358,42 @@ This is my very first project I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.11
 
+49- Create a gh-pages branch
+
+    git checkout -b gh-pages
+    git push -u origin gh-pages
+    git checkout master
+
+50- Go to github settings for your repository
+51- Choose a theme in GitHub Pages section
+52- Your project page is ready now: https://conquerorsoft.github.io/my_first_project/
+53- commit to git and increase version
+
+    git add .
+    git commit -m "Documentation instructions for the project"
+    git tag -a v1.0.0 -m "version 1.0.0"
+    git push -u origin master
+    git push origin v1.0.0
+
 ## Install ##
 
 With composer
 
     composer create-project conquerorsoft/my_first_project <project-dir>
+
+## Usage ##
+
+    cd src
+    php -a
+        Interactive shell
+
+        php > include ('../vendor/autoload.php');
+        php > $fpc=new conquerorsoft\my_first_project\FirstProjectClass();
+        php > echo $fpc->encoding("Test string");
+        The string 'Test string' is encoded as '2n12 120rwp'
+        php > echo $fpc->decoding("2n12 120rwp");
+        The string '2n12 120rwp' is decoded as 'test string'
+        php > exit
 
 ## Change Log ##
 
